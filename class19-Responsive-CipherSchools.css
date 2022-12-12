@@ -1,0 +1,18 @@
+.image{
+    width: 50%;
+
+}
+
+@media screen and  (max-width: 760px) {
+    p{
+        font-size: 30px;
+    }
+    
+}
+
+/* 320px - mobile portraits */
+/* 480px - mobile landscape */
+/* 600px - smaall tablet */
+/* 768px - tablet portraits */
+/* 940px - tablet landscape */
+/* 1040px or greater  - Desktop/laptops */

@@ -1,0 +1,30 @@
+p::after{
+    content: "this is the para";
+}
+
+p::before{
+    content: "this is the para";
+}
+
+p::first-letter{
+    background-color: red;
+}
+
+p::first-line{
+    background-color: royalblue;
+
+}
+
+p::selection{
+    background-color: salmon;
+    color: #fff;
+}
+
+li::marker {
+    color: seagreen;
+    font-size: 30PX;
+}
+input[type="text"]::placeholder{
+    color: #fff;
+    background-color: slategrey;
+}

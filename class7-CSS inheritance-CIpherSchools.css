@@ -1,0 +1,40 @@
+*{
+     color:green; 
+}
+p{
+    color:red !important;
+}
+
+p{
+    /* this will be prefered */
+    /* color: blueviolet */
+    font-size: 20px;
+    font-size: 30ox;   
+}
+.para{
+    /* color : black; */
+}
+
+#para{
+    /* color: purple; */
+}
+/* desendant Selector */
+header p{
+    color: royalblue !important;
+}
+
+header > p{
+    background-color: cornsilk;
+
+}
+
+/* adjacent sibling selector */
+header + p{
+    font-style: italic;
+}
+
+/* genereal sibling seletor */
+header ~ p{
+    background-color: darkgoldenrod;
+    color: #fff;
+}

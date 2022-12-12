@@ -1,0 +1,50 @@
+.box div{
+    display: inline;
+    background-color: steelblue;
+}
+
+.box open{
+    display: block;
+}
+
+.box{
+    background-color: tan;
+    width: 300px;
+    height: 300px;
+    /* For the space inside the box
+    padding-top:10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;*/
+
+    /* Same all the sides */
+    padding: 10px;
+    /* top,bottom & right,left */
+    padding: 20PX 10PX;
+    /* TOP & RIGHT ,LEFT AND BOTTOM */
+    padding: 20px 50px 20px;
+    /* Top,right,bottom,left */
+    padding: 20px 50px 20px 50px;
+
+    /* shorthand */
+    border: 2px solid #333;
+
+    /* spaces around the block */
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom:30px
+    margin-right:40px
+     */
+    /* margin Shorthands */
+     /* Same all the sides */
+     /* margin: -10px; */
+     /* top,bottom & right,left */
+     /* margin: 20PX 10PX; */
+     /* TOP & RIGHT ,LEFT AND BOTTOM */
+     /* margin: 20px 50px 20px; */
+     /* Top,right,bottom,left */
+     /* margin: 20px 50px 20px 50px; */
+
+    /* centered block */
+    margin: auto;
+}

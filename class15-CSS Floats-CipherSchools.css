@@ -1,0 +1,19 @@
+.contaner{
+    width : 200px;
+    margin : auto;
+    overflow:auto;
+    border:1px solid #333;
+    padding : 5px;
+}
+
+.contaner img{
+    float: left;
+}
+
+p{
+    float:left
+}
+
+.contaner .para{
+    clear: both;
+}

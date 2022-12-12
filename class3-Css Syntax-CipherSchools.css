@@ -1,0 +1,59 @@
+/* universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+strong{
+    font-size: 20px;
+}
+
+/* this is a paragraph styling */
+body{
+    color: #2f8aa9;
+}
+
+
+p{
+  color: inherit;  
+  background-color: rgba(0,0,0,1);
+  /* absolute width */
+  width: 20px;
+  
+  /* relative widht */
+  width: 70vw;
+  margin: 0;
+  line-height: 1.2;
+
+}
+
+p{color:red;background-color: bisque;}
+
+div{
+    transform: rotate(0deg);
+    width: calc(80% - 20px);
+    height: 100vh;
+    background-image: url("/assests/small.jpg");
+}  
+h1,h2,h3.h4,h5,h6{
+    color: blue;
+
+} 
+
+/* h2{
+    color:blue;
+}
+
+ */
+
+ #one{
+    font-size: 30px;
+ }
+ .div p{
+    font-size: 50px;
+ }
+ .div .container {
+    font-style: italic;
+
+ }
